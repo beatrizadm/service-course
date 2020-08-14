@@ -7,7 +7,7 @@ import {
   method,
 } from '@vtex/api'
 import { Clients } from './clients'
-import { analytics } from './handlers/analytics';
+import { analytics } from './handlers/analytics'
 import { updateLiveUsers } from './event/liveUsersUpdate'
 
 // Create a LRU memory cache for the Status client.
